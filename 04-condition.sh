@@ -10,7 +10,9 @@ then
     echo "Désoler ... vous échouez"
 fi
 
-if test $note -eq 60 # elif -> permet de mettre un else avec le if
+# elif -> permet de faire un else if
+
+if test $note -eq 60 
 then
     echo "Ouf !"
 else                   # else -> pas besoin de "then"
