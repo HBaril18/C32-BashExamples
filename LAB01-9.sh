@@ -91,5 +91,5 @@ doom(){
     echo "DELETED"
 }
 
-alias doom="LAB01-9.sh"
+alias doom="./LAB01-9.sh"
 doom
